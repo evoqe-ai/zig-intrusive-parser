@@ -1,0 +1,17 @@
+.{
+    .name = "intrusive-parser",
+    .version = "0.0.0",
+    .dependencies = .{
+        .extras = .{
+            .url = "https://github.com/evoqe-ai/zig-extras/archive/fdcaf31589fa2c7144a1ac14c8a2abfe0eb0d8fd.tar.gz",
+            .hash = "12206f03e2d6237392d1ad21c9378a244ff8f9b5320947a85fe56ca7709e9770664a",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "intrusive_parser.zig",
+        "LICENSE",
+        "README.md",
+    },
+}
